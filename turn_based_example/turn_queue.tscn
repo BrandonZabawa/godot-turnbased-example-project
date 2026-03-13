@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bp2pcu3rhvdao"]
+
+[ext_resource type="Script" uid="uid://dqip7vi2fsemi" path="res://turn_queue.gd" id="1_aoh0d"]
+[ext_resource type="PackedScene" uid="uid://ds3l77h814vav" path="res://character.tscn" id="2_l887h"]
+
+[node name="turn_queue" type="Node2D" unique_id=1122673128]
+script = ExtResource("1_aoh0d")
+
+[node name="character" parent="." unique_id=2111746813 instance=ExtResource("2_l887h")]
+position = Vector2(363, 140)
+stamina = 6
+speed = 2
+
+[node name="character2" parent="." unique_id=738550062 instance=ExtResource("2_l887h")]
+position = Vector2(735, 144)
+stamina = 5
+speed = 5
+
+[node name="character3" parent="." unique_id=1054954589 instance=ExtResource("2_l887h")]
+position = Vector2(353, 374)
+stamina = 5
+speed = 10
+
+[node name="character4" parent="." unique_id=2081185277 instance=ExtResource("2_l887h")]
+position = Vector2(734, 355)
+stamina = 4
+speed = 3

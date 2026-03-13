@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bob75o82oa6is"]
+
+[ext_resource type="Script" uid="uid://cybk7jge6sfkm" path="res://level.gd" id="1_0jydw"]
+[ext_resource type="PackedScene" uid="uid://bp2pcu3rhvdao" path="res://turn_queue.tscn" id="1_rw266"]
+
+[node name="level" type="Node2D" unique_id=918287776]
+script = ExtResource("1_0jydw")
+
+[node name="turn_queue" parent="." unique_id=428241693 instance=ExtResource("1_rw266")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2089870379]
+position = Vector2(578, 322)
